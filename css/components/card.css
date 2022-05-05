@@ -1,0 +1,28 @@
+.container-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  border: 1px solid black;
+  height: 300px;
+  width: 250px;
+  margin: 20px 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  align-items: center;
+}
+.card p {
+ padding-top: 190px
+}
+
+.card-image {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  width: 50px;
+  background-size: cover;
+  padding: 85px;
+  margin-left: 0;
+}

@@ -1,0 +1,26 @@
+.banner {
+  background: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+  margin: 0px;
+  flex: 1 1 auto;
+  padding: 100px 0;
+  text-align: center;
+  align-items: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.banner:hover {
+  background-position: right center;
+}
+
+.banner h1{
+  font-size: 50px;
+}
+
+.banner p {
+  font-size: 24px;
+  font-weight: 100;
+  padding-bottom: 15px;
+}
